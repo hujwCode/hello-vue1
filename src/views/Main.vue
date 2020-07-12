@@ -7,7 +7,7 @@
                     <!-- 子菜单：用户管理 -->
                     <el-submenu index="1">
                         <template slot="title">
-                            <i class="el-icon-caret-left"></i>
+                            <i class="el-icon-caret-right"></i>
                             <span>用户管理</span>
                         </template>
                         <el-menu-item-group>
@@ -67,4 +67,13 @@
 </script>
 
 <style scoped>
+    .el-header{
+        background-color: #42b983;
+        color: #333333;
+        line-height: 60px;
+    }
+    .el-aside{
+        color: #333333;
+    }
+
 </style>

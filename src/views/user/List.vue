@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="div1">
         <h1>用户列表</h1>
         <p>aa</p>
 
@@ -14,5 +14,7 @@
 </script>
 
 <style scoped>
-
+    /*.div1{*/
+    /*    text-align: left;*/
+    /*}*/
 </style>
