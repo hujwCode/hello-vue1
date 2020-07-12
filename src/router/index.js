@@ -14,7 +14,7 @@ export default new VueRouter({
             path:'/Main',
             component: Main,
             children: [
-                {path: '/user/profile', component: UserProfile},
+                {path: '/user/profile/:id',name: 'UserProfile', component: UserProfile, props:true},
                 {path: '/user/list', component: UserList}
             ]
         },
@@ -23,6 +23,10 @@ export default new VueRouter({
             component: Login,
 
         },
+        {
+            path: '/goHome',
+            redirect: '/main'
+        }
 
 
     ]

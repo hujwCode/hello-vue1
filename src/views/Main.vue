@@ -12,12 +12,14 @@
                         </template>
                         <el-menu-item-group>
                             <el-menu-item index="11" >
-                                <router-link to="/user/profile">用户管理</router-link>
+<!--                                {name: 'UserProfile',params: {id: 1}}-->
+                                <router-link :to="{name:'UserProfile',params:{id:1}}">用户管理</router-link>
                             </el-menu-item>
-                        </el-menu-item-group>
-                        <el-menu-item-group>
                             <el-menu-item index="12" >
                                 <router-link to="/user/list">用户列表</router-link>
+                            </el-menu-item>
+                            <el-menu-item index="13" >
+                                <router-link to="/goHome">回到首页</router-link>
                             </el-menu-item>
                         </el-menu-item-group>
                     </el-submenu>
