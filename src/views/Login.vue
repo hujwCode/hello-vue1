@@ -45,8 +45,8 @@
                         message: '登陆成功',
                         type: 'success'
                     });
-                    this.$router.push({ path: "/Main" });
-                }else{
+                    this.$router.push({path: "/Main"});
+                } else {
                     this.$message.error('登陆失败');
                 }
             }

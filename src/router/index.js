@@ -5,16 +5,19 @@ import Main from "@/views/Main";
 import Login from "@/views/Login";
 import UserProfile from "@/views/user/Profile";
 import UserList from "@/views/user/List";
+import NotFound from "../views/NotFound";
 
 Vue.use(VueRouter);
 
 export default new VueRouter({
-    routes:[
+    mode: 'history',
+    routes: [
         {
-            path:'/Main',
+            path: '/Main',
             component: Main,
+            props: true,
             children: [
-                {path: '/user/profile/:id',name: 'UserProfile', component: UserProfile, props:true},
+                {path: '/user/profile/:id', name: 'UserProfile', component: UserProfile, props: true},
                 {path: '/user/list', component: UserList}
             ]
         },
@@ -25,7 +28,11 @@ export default new VueRouter({
         },
         {
             path: '/goHome',
-            redirect: '/main'
+            redirect: '/Main'
+        },
+        {
+            path: '*',
+            component: NotFound,
         }
 
 

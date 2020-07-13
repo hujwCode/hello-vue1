@@ -1,0 +1,21 @@
+{
+  "name":"胡佳伟",
+  "url":"http://www.baidu.com",
+  "page": 1,
+  "isNonProfit": true,
+  "address":{
+    "street":"集善路",
+    "city":"江苏",
+    "country":"中国"
+  },
+  "links":[
+    {
+      "name":"bilibili1",
+      "url":"http://www.bilibili.com"
+    },
+    {
+      "name":"bilibili2",
+      "url":"http://www.bilibili.com"
+    }
+  ]
+}
