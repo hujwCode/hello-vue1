@@ -14,7 +14,7 @@
 </script>
 
 <style scoped>
-    .div1{
-        text-align: left;
-    }
+    /*.div1{*/
+    /*    text-align: left;*/
+    /*}*/
 </style>

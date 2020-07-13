@@ -1,7 +1,7 @@
 <template>
     <div>
         <el-container>
-            <el-aside width="200px">
+            <el-aside width="200px" class="el-aside">
                 <!-- 菜单组件 -->
                 <el-menu :default-openeds="['1']">
                     <!-- 子菜单：用户管理 -->
@@ -73,6 +73,7 @@
         background-color: #42b983;
         color: #333333;
         line-height: 60px;
+
     }
     .el-aside{
         color: #333333;

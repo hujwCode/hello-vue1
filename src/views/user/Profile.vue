@@ -13,8 +13,8 @@
 </script>
 
 <style scoped>
-    .div1{
-        text-align: left;
-        font-size: 20px;
-    }
+    /*.div1{*/
+    /*    text-align: left;*/
+    /*    font-size: 20px;*/
+    /*}*/
 </style>
