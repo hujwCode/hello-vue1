@@ -11,6 +11,7 @@ Vue.config.productionTip = false
 
 Vue.use(router);
 Vue.use(ElementUI)
+
 Vue.use(VueAxios,axios)
 
 new Vue({

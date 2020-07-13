@@ -5,6 +5,9 @@
     </div>
 </template>
 
+import axios from 'axios'
+import VueAxios from "vue-axios"
+
 <script>
     export default {
         props: ['id'],
@@ -25,7 +28,7 @@
                 console.log("datajson")
                 this.axios({
                     method:'get',
-                    url:' http://localhost:8080/data.json'
+                    url:'http://localhost:8080/mock/data.json'
                 }).then(function (response) {
                     console.log(response);
                 })
